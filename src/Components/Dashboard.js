@@ -3,7 +3,9 @@ import React from "react";
 const Dashboard = () => {
   return (
     <>
-      <p>Home / Dashboard</p>
+      <p>
+        <span>Home</span> / Dashboard
+      </p>
 
       <div className="info_wrapper">
         <h2>
