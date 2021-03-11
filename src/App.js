@@ -1,13 +1,19 @@
 import React from "react";
 import Card from "./Components/Card";
 import Dashboard from "./Components/Dashboard";
+import Navbar from "./Components/Navbar";
+import Sidebar from "./Components/Sidebar";
 
 const App = () => {
   return (
     <div className="container">
-      <div className="box1">Hello</div>
-      <div className="box2"></div>
-      <div className="box3">
+      <div className="sidebar">
+        <Sidebar />
+      </div>
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="main">
         <div className="head">
           <Dashboard />
         </div>
