@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <div>
         <input type="text" placeholder="Search Here..." />
-        <img src={search} className="search" />
+        <img src={search} alt="search icon" className="search" />
       </div>
 
       <div className="notification">
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
       <div className="admin">
         <span>
-          <img src={admin} className="admin_logo" />
+          <img src={admin} alt="admin logo" className="admin_logo" />
         </span>
         <span className="login"></span>
       </div>

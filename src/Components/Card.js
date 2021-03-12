@@ -8,7 +8,7 @@ const Card = () => {
     <>
       <div className="card1 card">
         <div>
-          <img src={userlogo} className="user_logo" />
+          <img src={userlogo} alt="user logo" className="user_logo" />
         </div>
         <div>
           <h2>
@@ -19,7 +19,7 @@ const Card = () => {
       </div>
       <div className="card1 card">
         <div>
-          <img src={eye} className="eye_logo" />
+          <img src={eye} alt="eye logo" className="eye_logo" />
         </div>
         <div>
           <h2 className="visitors_count">51.25 K</h2>
@@ -28,7 +28,7 @@ const Card = () => {
       </div>
       <div className="card1 card">
         <div>
-          <img src={download} className="download_logo" />
+          <img src={download} alt="download " className="download_logo" />
         </div>
         <div>
           <h2 className="download_count">166.89 M</h2>
@@ -37,7 +37,7 @@ const Card = () => {
       </div>
       <div className="card1 card">
         <div>
-          <img src={cart} className="cart_logo" />
+          <img src={cart} alt="cart logo" className="cart_logo" />
         </div>
         <div>
           <h2 className="purchased_count">1,250k</h2>
